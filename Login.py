@@ -27,9 +27,9 @@ imageLabel=CTkLabel(root,image=image,text='')
 imageLabel.place(x=0,y=0)
 headinglabel=CTkLabel(root,text="Employee Management System",text_color="dark blue",bg_color="#FAFAFA",font=("Arial",16,'bold'))
 headinglabel.place(x=20,y=100) 
-userentry=CTkEntry(root,placeholder_text="Enter your Username",bg_color="#000000",text_color="#FFFFFF",width=180)
+userentry=CTkEntry(root,placeholder_text="Enter your Username",bg_color="#000000",text_color="#FF0000",width=180)
 userentry.place(x=50,y=150)
-passwordentry=CTkEntry(root,placeholder_text="Enter your Password",bg_color="#000000",text_color="#FFFFFF",width=180,show='*')
+passwordentry=CTkEntry(root,placeholder_text="Enter your Password",bg_color="#000000",text_color="#FF0000",width=180,show='*')
 passwordentry.place(x=50,y=200)
 
 
